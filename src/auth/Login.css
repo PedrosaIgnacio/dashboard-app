@@ -1,0 +1,9 @@
+.login__bg {
+  background-image: url("../assets/login-bg.jpg");
+}
+.form-control:focus {
+  border-color: #1e293b;
+  border: none;
+  box-shadow: inset 0 1px 1px rgba(51, 65, 85, 0.075),
+    0 0 8px rgba(51, 65, 85, 0.6);
+}
