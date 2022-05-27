@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 export const Login = () => {
   return (
     <section className="h-screen">
-      <div className="flex h-full w-full">
-        <div className="xl:w-4/6 l:w-4/6 md:w-2/6 sm:w-2/6 h-full w-full">
+      <div className="xl:flex l:flex md:flex sm:flex h-full w-full xxs">
+        <div className="xl:w-4/6 l:w-4/6 md:w-2/6 sm:w-2/6 w-full">
           <img src={loginBg} className="w-full h-full object-cover" />
         </div>
-        <div className="xl:w-2/6 l:w-2/6 md:w-4/6 sm:w-4/6 flex flex-col justify-center items-center mt-0 h-full">
-          <div className="xl:w-4/6 l:w-4/6 md:w-2/6 sm:w-2/6 w-full">
+        <div className="xl:w-2/6 l:w-2/6 md:w-4/6 sm:w-4/6 flex flex-col justify-center items-center mt-0 ">
+          <div className="xl:w-4/6 l:w-4/6 md:w-2/6 sm:w-2/6 w-2/6">
             <img src={logoDashboard} alt="..." className="object-cover" />
           </div>
           <form className="xl:px-8 xl:w-4/6 l:w-4/6 l:px-8 md:w-4/6 md:px-8 sm:w-4/6 px-0 mt-4 ">
