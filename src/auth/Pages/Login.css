@@ -1,5 +1,5 @@
 .login__bg {
-  background-image: url("../assets/login-bg.jpg");
+  background-image: url("../../assets/login-bg.jpg");
 }
 .form-control:focus {
   border-color: #1e293b;

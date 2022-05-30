@@ -2,7 +2,6 @@ import React, { ReactElement } from "react";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillCalendar2DayFill } from "react-icons/bs";
 import { IoSettingsSharp } from "react-icons/io5";
-import { RiLogoutBoxRLine } from "react-icons/ri";
 
 interface ISidebarItem {
   id: number;
@@ -18,7 +17,7 @@ export const SidebarData: ISidebarItem[] = [
     id: 1,
     name: "Home",
     icon: <AiFillHome />,
-    path: "",
+    path: "/",
     size: "1em",
     gap: false,
   },
@@ -26,7 +25,7 @@ export const SidebarData: ISidebarItem[] = [
     id: 2,
     name: "Schedule",
     icon: <BsFillCalendar2DayFill />,
-    path: "schedule",
+    path: "/schedule",
     size: "1em",
     gap: false,
   },
@@ -34,16 +33,8 @@ export const SidebarData: ISidebarItem[] = [
     id: 3,
     name: "Settings",
     icon: <IoSettingsSharp />,
-    path: "settings",
+    path: "/settings",
     size: "1em",
     gap: false,
-  },
-  {
-    id: 4,
-    name: "Logout",
-    icon: <RiLogoutBoxRLine />,
-    path: "/auth/login",
-    size: "1em",
-    gap: true,
   },
 ];
